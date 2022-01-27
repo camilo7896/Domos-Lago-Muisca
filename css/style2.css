@@ -1,0 +1,11 @@
+.reservas {
+    background-color: rgb(2, 208, 146);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.icono {
+    width: 80%;
+}
