@@ -1469,3 +1469,17 @@ blockquote {
     transition: opacity 0.2s ease-out;
     font-size: 30px;
 }
+
+.btn-whatsapp {
+    display: block;
+    width: 65px;
+    height: 70px;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 110px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}
