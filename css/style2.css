@@ -1,25 +1,98 @@
-.reservas {
-    background-color: rgb(2, 208, 146);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.icono {
-    width: 80%;
-}
-
-.btn-whatsapp {
-    display: block;
-    width: 70px;
-    height: 70px;
-    color: white;
-    position: fixed;
-    right: 50px;
-    bottom: 110px;
-    border-radius: 50%;
-    line-height: 80px;
-    text-align: center;
-    z-index: 999;
-}
+    .reservas {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.501);
+    }
+    
+    .icono {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .boxImg:hover {
+        box-shadow: 1px 1px 9px 8px rgb(2, 148, 39);
+    }
+    
+    .iconoImg:hover {
+        box-shadow: 1px 1px 9px 8px rgb(2, 148, 39);
+    }
+    
+    .boxImgDomos {
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button {
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(4, 155, 29);
+        margin-top: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+    }
+    
+    .button:hover {
+        box-shadow: 1px 1px 2px 2px rgba(2, 148, 39, 0.522);
+        background-color: rgb(115, 206, 11);
+        color: rgb(3, 0, 49);
+    }
+    
+    .enlaceReserva {
+        color: white;
+    }
+    
+    .enlaceReserva:hover {
+        color: rgb(3, 15, 121);
+    }
+    
+    .btn-whatsapp {
+        display: block;
+        width: 65px;
+        height: 70px;
+        color: white;
+        position: fixed;
+        right: 20px;
+        bottom: 110px;
+        border-radius: 50%;
+        line-height: 80px;
+        text-align: center;
+        z-index: 999;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .btn-whatsapp {
+            display: block;
+            width: 100px;
+            height: 70px;
+            color: white;
+            position: fixed;
+            right: 15px;
+            bottom: 110px;
+            border-radius: 70%;
+            line-height: 80px;
+            text-align: center;
+            z-index: 999;
+        }
+        .icono {
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+        .reservas {
+            display: flex;
+            flex-direction: column;
+        }
+        .boxImgDomos {
+            width: 100%;
+            padding-top: 15px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .button {
+            margin-top: 25px;
+        }
+    }
