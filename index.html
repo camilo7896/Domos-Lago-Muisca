@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/custom.css">
 
     <link rel="stylesheet" href="css/style2.css">
-
+    <link rel="stylesheet" href="./css/reloj.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -65,6 +65,7 @@
                         <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="planes.html">Planes</a></li>
                         <li class="nav-item"><a class="nav-link" href="gallery.html">Galeria</a></li>
+
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Planes</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -91,8 +92,10 @@
             </div>
 
         </nav>
+
     </header>
     <!-- End header -->
+
 
     <!-- Start slides -->
     <div id="slides" class="cover-slides">
@@ -186,6 +189,27 @@
                 <div class="col-lg-12">
 
                     <div class="heading-title text-center">
+                        <!-- Reloj -->
+                        <h3>¡ Clink en el logo para aplicar un descuento !</h3>
+                        <div class="cont-temporizador">
+                            <div class="bloque">
+                                <div class="dias" id="dias">05</div>
+                                <p>DÍAS</p>
+                            </div>
+                            <div class="bloque">
+                                <div class="horas" id="horas">--</div>
+                                <p>HORAS</p>
+                            </div>
+                            <div class="bloque">
+                                <div class="minutos" id="minutos">--</div>
+                                <p>MINUTOS</p>
+                            </div>
+                            <div class="bloque">
+                                <div class="segundos" id="segundos">--</div>
+                                <p>SEGUNDOS</p>
+                            </div>
+                        </div>
+                        <!-- Reloj -->
                         <h2>¡ Reserva directamente con nosotros aqui !</h2>
                     </div>
                     <center>
@@ -664,6 +688,7 @@
     <script src="js/form-validator.min.js "></script>
     <script src="js/contact-form-script.js "></script>
     <script src="js/custom.js "></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
